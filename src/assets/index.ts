@@ -22,3 +22,8 @@ export { default as Windbnb } from './images/Windbnb.png'
 export { default as DevJobs } from './images/devjobs.png'
 export { default as SpaceTourism } from './images/space-tourism.png'
 export { default as FloatingCogs } from './images/floating-cogs.svg'
+
+export { default as BruhwayHotel } from './images/bruhway-hotel.png'
+export { default as TourAndTravel } from './images/tour-and-travel.png'
+export { default as Restaurant } from './images/restaurant.png'
+export { default as Catering } from './images/catering.png'

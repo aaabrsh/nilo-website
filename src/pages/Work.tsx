@@ -28,9 +28,9 @@ const Work = () => (
                           </div>  
 
                           <div className='flex justify-between lg:hidden'>
-                            <a href={githubLink} target='_blank'>
+                            {/* <a href={githubLink} target='_blank'>
                               <BsGithub className='w-5 h-5 mr-3'/>
-                            </a>
+                            </a> */}
                             <a href={liveLink} target='_blank'>
                               <VscLinkExternal className='w-5 h-5'/>
                             </a>
@@ -42,11 +42,12 @@ const Work = () => (
                     </div>
 
                     <div className='absolute top-0 bottom-0 left-0 right-0 hidden w-full h-full transition duration-300 app__work-hover lg:flex'>
-                      <a href={githubLink} target='_blank'>
+                      {/* <a href={githubLink} target='_blank'>
                         <BsGithub className='w-10 h-10 mr-3 absolute top-36 left-[30%] text-[#313bac] hover:text-[#313bac]/50 transition duration-150'/>
-                      </a>
-                      <a href={liveLink} target='_blank'>
-                        <VscLinkExternal className='w-10 h-10 top-36 absolute right-[30%] text-dark-accent hover:text-dark-accent/30 transition duration-150'/>
+                      </a> */}
+                      <a href={liveLink} target='_blank' className="w-[200px] m-auto p-2 px-5 rounded-md dark:bg-dark-accent dark:text-dark-primary/80 bg-light-secondary text-dark-primary lg:py-3 hover:dark:bg-light-accent flex justify-center items-center hover:bg-light-secondary/80">
+                        Go to page ▶
+                        {/* <VscLinkExternal className='w-10 h-10 top-36 absolute right-[30%] text-dark-accent hover:text-dark-accent/30 transition duration-150'/> */}
                       </a>
                     </div>
 
@@ -56,9 +57,9 @@ const Work = () => (
         }
       </div>
 
-      <a className='flex justify-center w-3/5 mx-auto mt-20 underline transition hover:text-light-secondary hover:dark:text-dark-accent' href='https://github.com/emmaGH1' target='_blank' >
+      {/* <a className='flex justify-center w-3/5 mx-auto mt-20 underline transition hover:text-light-secondary hover:dark:text-dark-accent' href='https://github.com/emmaGH1' target='_blank' >
         See more on Github ...
-      </a>
+      </a> */}
 
     </div>
   )
