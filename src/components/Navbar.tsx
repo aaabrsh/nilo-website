@@ -13,7 +13,8 @@ const Navbar = ({ targetRef, toggleShow, setToggleShow }: TargetRefProp) => {
   const [prevScrollPos, setPrevScrollPos] = useState<number>(0);
   const [visible, setVisible] = useState<boolean>(true);
 
-  const navLinksArray: string[] = ["home", "about", "skills", "work", "contact"]
+  // const navLinksArray: string[] = ["home", "about", "skills", "work", "contact"]
+  const navLinksArray: string[] = ["home", "about", "work", "contact"]
   const handleToggle = () => {
     setToggleShow(prev => !prev)
   }
@@ -37,7 +38,7 @@ const Navbar = ({ targetRef, toggleShow, setToggleShow }: TargetRefProp) => {
   return (
     <div className={` ${visible ? 'md:flex' : 'md:hidden'} flex app__navbar text-dark-primary/70 dark:text-light-primary md:bg-white/50 md:dark:bg-white/10 transition-colors`} >
       <div className="flex items-center mt-2 ml-4 md:ml-0 md:mt-0 text-light-primary dark:text-dark-primary/70">
-        <span className="font-bold text-xl">Emma</span>
+        <span className="font-bold text-xl">Nilo</span>
         <span className="hidden sm:flex font-bold text-xl">.</span>
         <span className="hidden sm:flex self-end mb-1">dev</span>
       </div>
@@ -77,13 +78,13 @@ const Navbar = ({ targetRef, toggleShow, setToggleShow }: TargetRefProp) => {
             ))} 
           </ul>
 
-          <div className="text-light-primary flex items-center mt-10 justify-end">
+          {/* <div className="text-light-primary flex items-center mt-10 justify-end">
             <a href="https://github.com/emmaGH1" target="_blank"><FiGithub className="w-5 h-5 mr-1"/></a> 
             <a href="https://www.linkedin.com/in/maduakor-emmanuel-5a141b245/"  target="_blank"><AiOutlineLinkedin className="w-5 h-5 mr-2"/></a>
             <a href="/public/Emmanuel_Maduakor_Resume.pdf" download={true}className="bg-light-secondary flex items-center rounded-md p-2 text-dark-secondary mr-5">
              Resume <BsArrowDown className="w-5 h-5 ml-1 text-light-primary bg-light-accent dark:bg-dark-accent rounded-full" />
             </a>
-          </div>
+          </div> */}
         </div>
      </div>
 

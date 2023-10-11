@@ -23,7 +23,7 @@ const Home = () => {
       <div className='h-full mx-auto w-9/10'>
 
           <div className='mt-2'>
-            <GetGreetings className='text-2xl text-color-pry' />
+            <GetGreetings className='text-xl text-blue-500' />
           </div>
           
           {/* Main content */}
@@ -34,7 +34,8 @@ const Home = () => {
 
             <div className='mb-10 mt-7'>
               <div className='flex flex-col justify-center mx-auto'>
-                <h1 className='flex justify-center p-0 my-0 font-bold text-dark-accent font-heading'>Frontend Dev🧑‍💻</h1>
+                <h1 className='flex justify-center p-0 my-0 font-bold text-dark-accent font-heading'>{'<Nilo />'}</h1>
+                <h1 className='flex justify-center p-0 my-0 font-bold text-dark-accent font-heading'>Software Development💻</h1>
                 <div className="flex justify-center mt-2 mb-5 text-center dark:text-dark-primary/50">
                   {introText.map((p, i) => (
                     <motion.p
@@ -51,7 +52,7 @@ const Home = () => {
                 </div>             
               </div>
 
-              <div className='flex flex-col justify-center'>
+              {/* <div className='flex flex-col justify-center'>
                 <div className='flex justify-center'>
                   <button className='px-4 py-3 transition-colors rounded-md cursor-pointer bg-light-accent dark:bg-dark-accent hover:bg-dark-accent dark:hover:bg-transparent hover:dark:text-dark-primary dark:hover:underline' onClick={handleDownload}>
                     download resume
@@ -65,7 +66,7 @@ const Home = () => {
                     <AiFillLinkedin className='w-10 h-10 mr-1 cursor-pointer text-light-primary dark:text-dark-primary hover:text-light-secondary hover:dark:text-dark-secondary' />
                   </a>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>

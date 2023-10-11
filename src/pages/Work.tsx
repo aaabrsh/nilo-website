@@ -6,7 +6,7 @@ import { fadeIn } from '../utils'
 
 const Work = () => (
     <div id='work' className='primary-2 h-[1500px] lg:h-[1000px]'>
-      <h1 className='mt-16 ml-7 text-dark-accent'>These are some of my works</h1>
+      <h1 className='mt-16 ml-7 text-dark-accent'>{'<Projects />'}</h1>
 
       <div className='grid mx-auto w-9/10 lg:w-4/5 lg:grid-cols-2'>
         {

@@ -17,15 +17,20 @@ interface ProjectProps {
 }
 
 export const paragraphs = {
-       intro: `I build clean, responsive, and scalable websites.`,
+       intro: `We build clean, responsive, and scalable websites.`,
        aboutMe: [
-         `Greetings! I'm Emma, a frontend web developer based in Imo, Nigeria 🌍. Currently, I'm studying Geology at the Federal University of Technology, Owerri (FUTO) 🎓.`,
-         `When it comes to web development, my passion lies in crafting captivating experiences that leave users impressed and engaged ✨. I pay close attention to my work, ensuring that I make the best out of it 🎨.`,
-         `I thrive on problem-solving and tackling challenges head-on, making sure that the code is reliable and free of pesky bugs 💡. Collaboration is key to my work—I love working with others to boost productivity and deliver high-quality results 🚀`,
-         `I am a big football fan😁.  PS: In my book, Cristiano Ronaldo is the 🐐 (Greatest of All Time)!.
-         `,
-         `I also love watching anime, the way their captivating stories and vibrant characters ignite my imagination. 💫`,
-         `I have a perpetual thirst for knowledge and a genuine curiosity to connect with people from diverse cultures. The opportunity to expand my understanding and engage with individuals from various backgrounds truly excites me. I believe that continuous learning and fostering meaningful connections are essential for personal and professional growth. 🏁`
+         'We are a technology company based in Ethiopia working on a wide range of software products — from websites and mobile apps to fully integrated custom systems 💡.',
+         'Nilo tech was founded by two friends with a passion for building innovative and user-friendly products ✨. We believe that technology should be accessible to everyone 🌍, and we are committed to creating software that makes people\'s lives easier and more enjoyable.',
+         'We believe that the best software is built in collaboration with our customers. We work closely with our clients to understand their needs and goals, and we deliver custom solutions that meet their specific requirements 🏁.',
+         'We are excited to be starting this new journey with you 🚀, and we are committed to providing you with the best possible software development services.',
+         'If you are interested in learning more about our services, or if you have a specific project in mind, please contact us today 📧. We would be happy to discuss your needs.',
+         // `Greetings! I'm Emma, a frontend web developer based in Imo, Nigeria 🌍. Currently, I'm studying Geology at the Federal University of Technology, Owerri (FUTO) 🎓.`,
+         // `When it comes to web development, my passion lies in crafting captivating experiences that leave users impressed and engaged ✨. I pay close attention to my work, ensuring that I make the best out of it 🎨.`,
+         // `I thrive on problem-solving and tackling challenges head-on, making sure that the code is reliable and free of pesky bugs 💡. Collaboration is key to my work—I love working with others to boost productivity and deliver high-quality results 🚀`,
+         // `I am a big football fan😁.  PS: In my book, Cristiano Ronaldo is the 🐐 (Greatest of All Time)!.
+         // `,
+         // `I also love watching anime, the way their captivating stories and vibrant characters ignite my imagination. 💫`,
+         // `I have a perpetual thirst for knowledge and a genuine curiosity to connect with people from diverse cultures. The opportunity to expand my understanding and engage with individuals from various backgrounds truly excites me. I believe that continuous learning and fostering meaningful connections are essential for personal and professional growth. 🏁`
        ],
       joke: `✨ Fun Developer Joke: Why did the web developer go broke? Because they lost their domain in a bet!`
    }

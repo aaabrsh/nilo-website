@@ -62,7 +62,7 @@ const Contact = () => {
       </h1>
 
       <div className='flex flex-col-reverse items-center justify-between mx-auto mt-10 mb-10 lg:w-4/5 lg:flex-row-reverse md:mb-20'>  
-          <form
+          {/* <form
           className="w-4/5 mx-auto md:w-2/4 xl:w-2/6"
           onSubmit={handleSubmit(onSubmit)}
           >
@@ -113,7 +113,17 @@ const Contact = () => {
           >Send Message <BsSendFill className='ml-2' />
           </button>
 
-          </form>
+          </form> */}
+          <div className="m-auto flex justify-center flex-col gap-3">
+            <a
+              href='mailto: abrdevmail@gmail.com'
+                type="submit"
+                className='w-[200px] m-auto p-2 px-5 rounded-md dark:bg-dark-accent dark:text-dark-primary/80 bg-light-secondary text-dark-primary lg:py-3 hover:dark:bg-light-accent flex justify-center items-center hover:bg-light-secondary/80'
+              >Contact Us <BsSendFill className='ml-2' />
+            </a>
+            <div className='m-auto dark:text-dark-accent  text-light-secondary'>0940 54 99 42</div>
+            <div className='m-auto dark:text-dark-accent  text-light-secondary'>0777 29 71 21</div>
+          </div>
 
           <div className='flex w-64 h-64 mx-auto mb-10 overflow-hidden md:w-96 md:h-96 md:mx-0'>
            <UseLottieAnimation data={data}/>

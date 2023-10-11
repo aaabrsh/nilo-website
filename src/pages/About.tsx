@@ -13,7 +13,7 @@ const About = () => {
       <div className='flex flex-col w-full mx-auto md:w-9/10'>
 
        <h1 className='mt-20 mb-0 ml-5 text-dark-accent md:mt-16 md:ml-0 '>
-        {`<About Me />`}
+        {`<About Us />`}
        </h1>     
       <div className='flex flex-col'>
 
